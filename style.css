@@ -76,3 +76,33 @@ textarea{
     border-radius: 16px;
 
 }
+
+textarea{
+
+}
+
+.controls{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--secondary);
+    font-size: 16px;
+}
+
+.checkboxes{
+    display: flex;
+    gap: 20px;
+}
+
+.checkboxes{
+
+}
+
+.stats{
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
