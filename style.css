@@ -159,3 +159,31 @@ textarea{
     margin-bottom: 12px;
 }
 
+.bar{
+    height: 20px;
+    background: var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fill{
+    height: 100%;
+    background: var(--bar);
+    border-radius: 20px;
+}
+
+.fill-e{
+    width: 80%;
+}
+.fill-i{
+    width: 58%;
+}
+.fill-t{
+    width: 55%;
+}
+.fill-o{
+    width: 42%;
+}
+.fill-n{
+    width: 40%;
+}
