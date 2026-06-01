@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Counter</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googlepis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
 
-    <div>
+    <div class="container">
 
         <header>
 
@@ -19,12 +23,13 @@
             <button class="sett-btn">
 
             </button>
+            
 
         </header>
 
         <main>
 
-            <section class="">
+            <section class="title">
 
                 <h1>
                     Analyze your text
@@ -33,13 +38,19 @@
 
                 <textarea placeholder="start typing..."></textarea>
 
-                <div class="control">
+                <div class="controls">
 
-                    <div>
+                    <div class="checkboxes">
 
+                        <label>
+                            <input type="checkbox">
+                            Exclude Spaces
+                        </label>
 
-                        <input type="checkbox">
-                        set character limit
+                        <label>
+                            <input type="checkbox">
+                             set character limit
+                        </label>
 
                     </div>
 
@@ -49,18 +60,19 @@
 
             </section>
 
-            <section>
-                <article>
+            <section class="stats">
+
+                <article class="purple">
                     <h2>278</h2>
                     <p>total characters</p>
                 </article>
                 
-                <article>
+                <article class="orange">
                     <h2>39</h2>
                     <p>Word Count</p>
-                </article>
+                </article class>
 
-                <article>
+                <article class="coral">
                     <h2>04</h2>
                     <p>Sentence Count</p>
                 </article>
@@ -74,7 +86,7 @@
                 <div class="row">
                     <span>E</span>
                     <div class="bar">
-                        <div class=""></div>
+                        <div class="fill-e"></div>
                     </div>
                     <span>40 (16.06%)</span>
                 </div>
@@ -82,7 +94,7 @@
                 <div class="row">
                     <span>I</span>
                     <div class="bar">
-                        <div></div>
+                        <div class="fill-i"></div>
                     </div>
                     <span>29 (11.65%)</span>
                 </div>
@@ -90,7 +102,7 @@
                 <div class="row">
                     <span>T</span>
                     <div class="bar">
-                        <div class=""></div>
+                        <div class="fill-t"></div>
                     </div>
                     <span>28 (11.24%)</span>
                 </div>
@@ -98,7 +110,7 @@
                 <div class="row">
                     <span>O</span>
                     <div class="bar">
-                        <div class=""></div>
+                        <div class="fill-o"></div>
                     </div>
                     <span>22 (8.84%)</span>
                 </div>
@@ -106,13 +118,13 @@
                 <div class="row">
                     <span>N</span>
                     <div class="bar">
-                        <div class=""></div>
+                        <div class="fill-n"></div>
                     </div>
                     <span>21 (8.43%)</span>
                 </div>
 
                 <div class="see-more">
-                    <a href="">
+                    <a href="#">
                         See more
                         <span class="arrow">⌄</span>
                     </a>
