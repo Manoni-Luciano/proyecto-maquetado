@@ -32,7 +32,6 @@ body{
 .container{
    width: 100%;
    max-width: 620px;
-   padding: px 20px;
    margin: 0 auto;
 }
 
@@ -234,4 +233,32 @@ textarea:focus{
 
 .see-more a:hover{
     transform:translateY(2px)
+}
+
+@media(max-width:768px){
+    body{
+        overflow: auto;
+        height: auto;
+    }
+
+    .container{
+        padding: 16px;
+    }
+
+    .title h1{
+        font-size: 46px;
+    }
+
+    textarea{
+        height: 170px;
+    }
+
+    .controls{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .stats{
+        grid-template-columns: 1fr;
+    }
 }
